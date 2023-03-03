@@ -23,8 +23,9 @@
 }
 
 .avatar-portfolio {
-  height: 320px;
-  width: 320px;
-  border-radius: 8px;
+  height: 360px;
+  width: 360px;
+  border-radius: 50%;
   object-fit: cover;
+  border: 2px solid $custom-red;
 }
