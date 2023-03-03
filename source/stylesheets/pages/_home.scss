@@ -1,1 +1,12 @@
-// Specific CSS for your home-page
+body {
+  background-color: $custom-black;
+  color: $custom-white;
+}
+
+p {
+  opacity: 0.8;
+}
+
+.text-red {
+  color: $custom-red;
+}

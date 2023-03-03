@@ -1,14 +1,25 @@
 <div class="row justify-content-center banner">
   <div class="col-12 d-flex justify-content-around align-items-center h-100">
-    <%= image_tag 'demoday-picture.jpg', alt: "profile photo", class: 'avatar-portfolio' %>
+    <div>
+      <%= image_tag 'demoday-picture.jpg', alt: "profile photo", class: 'avatar-portfolio' %>
+      <div class="d-flex justify-content-center gap-3 mt-4 text-red">
+        <div class="button-social d-flex flex-column justify-content-center align-items-center">
+          <i class="fa-brands fa-github fs-1"></i>
+          <%= link_to "", "https://github.com/moledoPatrik", target: '_blank', class: 'button-social-link' %>
+        </div>
+        <div class="button-social d-flex flex-column justify-content-center align-items-center">
+          <i class="fa-brands fa-linkedin fs-1"></i>
+          <%= link_to "", "https://www.linkedin.com/in/patrikmoledo/", target: '_blank', class: 'button-social-link ' %>
+        </div>
+      </div>
+    </div>
     <div class="d-flex flex-column justify-content-between gap-5">
-      <div>
+      <div class="text-center">
         <h1 class="title-main">Patrik Moledo</h1>
         <p>Fullstack developer</p>
       </div>
-      <div>
+      <div class="d-flex justify-content-center">
         <%= link_to 'Contact me', '#', class: 'btn btn-lg button-red' %>
-        <%= link_to 'Github', '#', class: 'btn btn-lg button-gray' %>
       </div>
     </div>
   </div>
