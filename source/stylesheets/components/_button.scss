@@ -15,3 +15,25 @@
   right: 0;
   bottom: 0;
 }
+
+.button {
+  text-decoration: none;
+
+
+}
+
+.button-red {
+  background-color: $custom-red;
+
+  &:hover {
+    background-color: #ed1e25;
+  }
+}
+
+.button-gray {
+  background-color: $custom-white;
+
+  &:hover {
+    background-color: #c3bbbb;
+  }
+}

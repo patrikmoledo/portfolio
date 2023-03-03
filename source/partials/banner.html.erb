@@ -1,9 +1,15 @@
 <div class="row justify-content-center banner">
   <div class="col-12 d-flex justify-content-around align-items-center h-100">
     <%= image_tag 'demoday-picture.jpg', alt: "profile photo", class: 'avatar-portfolio' %>
-    <div>
-      <h1 class="title-main">Patrik Moledo</h1>
-      <p>Fullstack developer</p>
+    <div class="d-flex flex-column justify-content-between gap-5">
+      <div>
+        <h1 class="title-main">Patrik Moledo</h1>
+        <p>Fullstack developer</p>
+      </div>
+      <div>
+        <%= link_to 'Contact me', '#', class: 'btn btn-lg button-red' %>
+        <%= link_to 'Github', '#', class: 'btn btn-lg button-gray' %>
+      </div>
     </div>
   </div>
 </div>
