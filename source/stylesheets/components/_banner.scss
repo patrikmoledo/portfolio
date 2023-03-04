@@ -1,9 +1,17 @@
 .banner {
-  height: 100vh;
+  height: 92vh;
   max-width: 100%;
 }
 
 .banner-projects-heading {
   height: 16vh;
   background-color: $custom-red;
+}
+
+#banner-info {
+  height: 360px;
+}
+
+.banner-text {
+  font-size: 32px;
 }
