@@ -4,10 +4,23 @@
   width: 80vw;
 
   .card-image {
-    width: 40%;
+    width: 50%;
     height: 30vh;
+    border-radius: 4px;
   }
 
-  .card-details {}
+  .card-details {
+    background-color: $custom-white;
+    color: $custom-black;
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+  }
 
+  .card-stack {
+    font-family: $text-font;
+    color: rgba(20, 20, 20, 0.6);
+    font-weight: 700;
+    font-size: 16px;
+  }
 }

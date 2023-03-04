@@ -1,19 +1,17 @@
-- name: Longest Word Game
+- name: Freshout
+  stack: Ruby, Rails, Heroku, Bootstrap, StimulusJS
+  description: Decent description of the app
+  image: projects/placeholder.png
+  url: https://www.google.com
+
+- name: Farmbnb
+  stack: Ruby, Rails, Heroku, Bootstrap, StimulusJS
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
 
 - name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-
-- name: Final project
+  stack: Ruby, Rails, Heroku, Bootstrap, StimulusJS
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
