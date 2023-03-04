@@ -1,3 +1,9 @@
 .banner {
   height: 100vh;
+  max-width: 100%;
+}
+
+.banner-projects-heading {
+  height: 16vh;
+  background-color: $custom-red;
 }
