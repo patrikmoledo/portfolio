@@ -4,5 +4,9 @@
 }
 
 .section-halfsize-box {
-  width: 360px;
+  width: 400px;
+  border-radius: 4px;
+  background-color: $custom-white;
+  color: $custom-black;
+  padding: 8px;
 }
