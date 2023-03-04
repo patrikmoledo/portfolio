@@ -1,17 +1,13 @@
 - name: Freshout
   stack: Ruby, Rails, Heroku, Bootstrap, StimulusJS
-  description: Decent description of the app
-  image: projects/placeholder.png
+  description: Mobile first web site that helps in food wasting prevention with an inventory system.
+  contribution: Contributed by making code reviews, backend features such as groceries receipt scan and resources CRUD, making design decisions.
+  image: projects/freshout-homepage.png
   url: https://www.google.com
 
 - name: Farmbnb
   stack: Ruby, Rails, Heroku, Bootstrap, StimulusJS
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-
-- name: Movie Watchlist
-  stack: Ruby, Rails, Heroku, Bootstrap, StimulusJS
-  description: Decent description of the app
-  image: projects/placeholder.png
+  description: Web application that enables you to rent an animal to your farm or rent out your animals to other farmers.
+  contribution: I was responsible for code reviews, hosting and updating the application in production and basic backend CRUD features.
+  image: projects/farmbnb-homepage.png
   url: https://www.google.com
