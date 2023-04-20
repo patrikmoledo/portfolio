@@ -11,3 +11,10 @@
   contribution: I was responsible for code reviews, hosting and updating the application in production and basic backend CRUD features.
   image: projects/farmbnb-homepage.png
   url: https://www.google.com
+
+- name: Watchlist
+  stack: Ruby, Rails, Heroku, Bootstrap
+  description: Web application to create list of movies, you can categorize them and share with your friends.
+  contribution: Learned how to host on Heroku, Database schema design, developing following the mvc pattern using Ruby on Rails.
+  image: projects/Watchlist-homepage.png
+  url: https://www.google.com
