@@ -1,0 +1,40 @@
+.banner {
+  width: 60vw;
+
+  h1 {
+    font-size: 46px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  img {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      font-size: 32px;
+      display: inline;
+      padding-inline: 16px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $custom-red;
+
+      &:hover {
+        color: $custom-black;
+        transition: 0.5s;
+      }
+    }
+  }
+}
