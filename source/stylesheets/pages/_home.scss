@@ -1,40 +1,14 @@
-// body {
-//   background-color: $custom-black;
-//   color: $custom-white;
-// }
+body {
+  background: #C6FFDD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: $body-font;
+}
 
-// h1 {
-//   font-size: 56px;
-//   padding-bottom: 16px;
-// }
+h1 {
+  font-weight: bold;
+}
 
-// h1,
-// h2,
-// h3 {
-//   font-family: $heading-font;
-//   font-weight: 700;
-// }
-
-// p {
-//   font-family: $text-font;
-//   font-weight: 300;
-//   font-size: 20px;
-//   opacity: 0.8;
-// }
-
-// .smaller-text {
-//   font-size: 16px;
-// }
-
-// .menu-padding {
-//   padding-top: 8vh;
-// }
-
-// .text-red {
-//   color: $custom-red;
-// }
-
-// .skills-text {
-//   font-family: $text-font;
-//   font-size: 20px;
-// }
+p {
+  font-size: 16px;
+}
