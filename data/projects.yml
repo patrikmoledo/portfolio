@@ -13,7 +13,7 @@
   description: Web application that enables you to rent an animal to your farm or rent out your animals to other farmers.
   contribution: I was responsible for code reviews, hosting and updating the application in production and basic backend CRUD features.
   image: projects/farmbnb-homepage.png
-  githubl: https://github.com/patrikmoledo/farm-bnb
+  github: https://github.com/patrikmoledo/farm-bnb
   url: https://farm-bnb.herokuapp.com/
 
 - name: Watchlist
