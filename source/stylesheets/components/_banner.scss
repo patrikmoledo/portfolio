@@ -28,10 +28,10 @@
 
     a {
       text-decoration: none;
-      color: $custom-red;
+      color: $custom-black;
 
       &:hover {
-        color: $custom-black;
+        color: $custom-green;
         transition: 0.5s;
       }
     }
