@@ -5,14 +5,24 @@
         <h2 class="text-center mb-3">Projects</h2>
         <div class="d-flex justify-content-around flex-wrap gap-3">
           <% data.projects.each do |project| %>
-            <div class="card" style="width: 18rem;">
-              <%= image_tag project.image, alt: "project picture", class: "card-img-top" %>
-              <div class="card-body">
-                <h5 class="card-title"><%= project.name %></h5>
-                <p class="card-text"><%= project.stack %></p>
-                <p class="card-text"><%= project.description %></p>
-                <%= link_to 'Github', project.github, class: 'btn btn-primary', target: '_blank' %>
-                <%= link_to 'Demo', project.url, class: 'btn btn-primary', target: '_blank' if project.url %>
+            <div class="card-project p-2">
+              <div class="card-project-image d-flex justify-content-center align-items-center">
+                <%= image_tag project.image, alt: "project picture" %>
+              </div>
+              <div class="card-project-detail p-2 d-flex flex-column">
+                <div class="card-project-heading d-flex justify-content-between">
+                  <h3 class="d-inline">
+                    <%= project.name %>
+                  </h3>
+                  <div>
+                    <a href="<%= project.github %>"><i class="fa-brands fa-github"></i></a>
+                    <% if project.url %>
+                      <a href="<%= project.github %>"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    <% end %>
+                  </div>
+                </div>
+                <!-- <p class="card-project-stack"><%= project.stack %></p> -->
+                <p class="card-project-description"><%= project.description %></p>
               </div>
             </div>
           <% end %>
