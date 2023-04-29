@@ -1,0 +1,34 @@
+.footer {
+  background-color: $custom-black;
+  color: $custom-white;
+  padding: 32px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    font-size: 16px;
+  }
+
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      font-size: 20px;
+      display: inline;
+      padding-inline: 8px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $custom-white;
+
+      &:hover {
+        color: $custom-red;
+        transition: 0.5s;
+      }
+    }
+  }
+}
