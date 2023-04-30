@@ -10,7 +10,7 @@
 - name: Farmbnb
   mobile: false
   stack: Ruby, Rails, Heroku, Bootstrap, StimulusJS
-  description: Web application that enables you to rent an animal to your farm or rent out your animals to other farmers.
+  description: Web application for farmers to rent out their own farm animals and rent animals from other farmers
   contribution: I was responsible for code reviews, hosting and updating the application in production and basic backend CRUD features.
   image: projects/farmbnb-homepage.png
   github: https://github.com/patrikmoledo/farm-bnb
